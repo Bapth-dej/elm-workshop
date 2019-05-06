@@ -6,7 +6,7 @@ We will now create the results page. This is a really simple one but it will all
 
 ![Screenshot of the expected result](../Utils/images/step3.png)
 
-Belo‹ you can see the HTML structure that is expected:
+Below you can see the HTML structure that is expected:
 
 ```html
 <div class="score">
