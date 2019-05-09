@@ -6,7 +6,7 @@ For now, we have only handled static URLs, for example `#categories`. But how ca
 
 For these more advanced routes, we need to use a parser and more exactly the [`Url.Parser` module](https://package.elm-lang.org/packages/elm/url/latest/Url-Parser).
 
-This is pretty much the same thing that with JSON decoders – we're describing what we expect to find and we check that pattern against the URL.
+This is pretty much the same thing as with JSON decoders – we're describing what we expect to find and we check that pattern against the URL.
 
 For example, the following parser can be used to recognize the path `/categories/13/details`: `Parser.s "categories" </> Parser.int </> s "details"`. Here is how you could use it:=
 
