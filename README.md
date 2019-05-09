@@ -9,13 +9,12 @@ You need to download and install Elm through [the following link](https://guide.
 
 ## Install a plugin for your editor
 
-Install a plugin for your editor to be able to understand Elm. You can find some instructions for these editors: 
+Install a plugin for your editor to be able to understand Elm. You can find some instructions for these editors (I advice you to use IntelliJ or VS Code): 
 
  - [Atom](https://atom.io/packages/language-elm)
  - [Brackets](https://github.com/tommot348/elm-brackets)
  - [Emacs](https://github.com/jcollard/elm-mode)
  - [Webstorm / IntelliJ](https://github.com/klazuka/intellij-elm)
- - [Light Table](https://github.com/rundis/elm-light)
  - [Sublime Text](https://packagecontrol.io/packages/Elm%20Language%20Support)
  - [Vim](https://github.com/ElmCast/elm-vim)
  - [VS Code](https://github.com/sbrink/vscode-elm)
@@ -47,3 +46,4 @@ elm make && elm reactor
 
 You can then open the link [http://localhost:8000/](http://localhost:8000/). As you can see, `elm-reactor` allowed us to launch a basic dev environment, and you can see the different folders for each step of the project. You can now start by going into the step 1.
 
+If you need a little reminder about the syntax, you can check [this cheat sheet](./syntax-help.md).
